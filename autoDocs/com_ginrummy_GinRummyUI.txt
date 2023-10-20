@@ -1,0 +1,359 @@
+Class: com.ginrummy.GinRummyUI
+Description: com.ginrummy.GinRummyUI
+
+Method: main
+Description: main
+Return Type: void
+Parameters:
+  [Ljava.lang.String; arg0
+
+Method: start
+Description: start
+Return Type: void
+Parameters:
+  javafx.stage.Stage arg0
+
+Method: chatArea
+Description: chatArea
+Return Type: void
+Parameters:
+  javafx.scene.layout.BorderPane arg0
+
+Method: handleMouseClicked
+Description: handleMouseClicked
+Return Type: void
+Parameters:
+  javafx.scene.input.MouseEvent arg0
+  javafx.scene.image.ImageView arg1
+
+Method: sendDataString
+Description: sendDataString
+Return Type: void
+Parameters:
+  java.lang.String arg0
+
+Method: lambda$chatArea$9
+Description: lambda$chatArea$9
+Return Type: void
+Parameters:
+  javafx.event.ActionEvent arg0
+
+Method: handleOnClose
+Description: handleOnClose
+Return Type: void
+Parameters:
+  javafx.stage.WindowEvent arg0
+
+Method: sendMessage
+Description: sendMessage
+Return Type: void
+Parameters:
+
+Method: runGame
+Description: runGame
+Return Type: void
+Parameters:
+
+Method: runGame
+Description: runGame
+Return Type: void
+Parameters:
+  com.ginrummy.Models.Deck arg0
+  com.ginrummy.Models.Player arg1
+  com.ginrummy.Models.Player arg2
+
+Method: lambda$start$0
+Description: lambda$start$0
+Return Type: void
+Parameters:
+
+Method: sendDataTransfer
+Description: sendDataTransfer
+Return Type: void
+Parameters:
+
+Method: handleKnock
+Description: handleKnock
+Return Type: void
+Parameters:
+
+Method: initialization
+Description: initialization
+Return Type: void
+Parameters:
+
+Method: initUI
+Description: initUI
+Return Type: void
+Parameters:
+  javafx.scene.control.TextArea arg0
+
+Method: UpdateDeckUI
+Description: UpdateDeckUI
+Return Type: void
+Parameters:
+  com.ginrummy.Models.Deck arg0
+
+Method: communicateWithPeerThread
+Description: communicateWithPeerThread
+Return Type: void
+Parameters:
+
+Method: lambda$UpdateThePlayerHandUI$6
+Description: lambda$UpdateThePlayerHandUI$6
+Return Type: void
+Parameters:
+  com.ginrummy.Models.Player arg0
+  java.util.List arg1
+  javafx.scene.control.TextArea arg2
+
+Method: UpdateThePlayerHandUI
+Description: UpdateThePlayerHandUI
+Return Type: void
+Parameters:
+  com.ginrummy.Models.Player arg0
+  java.util.List arg1
+  javafx.scene.control.TextArea arg2
+
+Method: createHighScoreScene
+Description: createHighScoreScene
+Return Type: javafx.scene.Scene
+Parameters:
+
+Method: createMovesDisplayScene
+Description: createMovesDisplayScene
+Return Type: javafx.scene.Scene
+Parameters:
+
+Method: createGamePlayScene
+Description: createGamePlayScene
+Return Type: javafx.scene.Scene
+Parameters:
+
+Method: createCardImageView
+Description: createCardImageView
+Return Type: javafx.scene.image.ImageView
+Parameters:
+  java.lang.String arg0
+
+Method: switchToGameplayScene
+Description: switchToGameplayScene
+Return Type: void
+Parameters:
+
+Method: switchToPlayerNameScene
+Description: switchToPlayerNameScene
+Return Type: void
+Parameters:
+
+Method: switchToHighScoreScene
+Description: switchToHighScoreScene
+Return Type: void
+Parameters:
+
+Method: switchToMovesDisplayScene
+Description: switchToMovesDisplayScene
+Return Type: void
+Parameters:
+
+Method: createPlayerNameSelectionScene
+Description: createPlayerNameSelectionScene
+Return Type: javafx.scene.Scene
+Parameters:
+
+Method: lambda$switchToHighScoreScene$18
+Description: lambda$switchToHighScoreScene$18
+Return Type: void
+Parameters:
+
+Method: lambda$switchToGameplayScene$17
+Description: lambda$switchToGameplayScene$17
+Return Type: void
+Parameters:
+
+Method: lambda$handleOnClose$16
+Description: lambda$handleOnClose$16
+Return Type: void
+Parameters:
+  javafx.scene.control.ButtonType arg0
+  javafx.scene.control.ButtonType arg1
+  javafx.scene.control.ButtonType arg2
+
+Method: lambda$createGamePlayScene$8
+Description: lambda$createGamePlayScene$8
+Return Type: void
+Parameters:
+  javafx.scene.image.ImageView arg0
+  javafx.scene.input.MouseEvent arg1
+
+Method: lambda$UpdateDeckUI$7
+Description: lambda$UpdateDeckUI$7
+Return Type: void
+Parameters:
+  com.ginrummy.Models.Deck arg0
+
+Method: lambda$communicateWithPeerWithServerThread$12
+Description: lambda$communicateWithPeerWithServerThread$12
+Return Type: void
+Parameters:
+
+Method: lambda$switchToMovesDisplayScene$19
+Description: lambda$switchToMovesDisplayScene$19
+Return Type: void
+Parameters:
+
+Method: lambda$communicateWithPeerThread$15
+Description: lambda$communicateWithPeerThread$15
+Return Type: void
+Parameters:
+
+Method: communicateWithPeerWithServerThread
+Description: communicateWithPeerWithServerThread
+Return Type: void
+Parameters:
+
+Method: lambda$communicateWithPeerThread$14
+Description: lambda$communicateWithPeerThread$14
+Return Type: void
+Parameters:
+
+Method: lambda$communicateWithPeerThread$13
+Description: lambda$communicateWithPeerThread$13
+Return Type: void
+Parameters:
+
+Method: lambda$communicateWithPeerWithServerThread$11
+Description: lambda$communicateWithPeerWithServerThread$11
+Return Type: void
+Parameters:
+
+Method: lambda$communicateWithPeerWithServerThread$10
+Description: lambda$communicateWithPeerWithServerThread$10
+Return Type: void
+Parameters:
+
+Method: lambda$createPlayerNameSelectionScene$5
+Description: lambda$createPlayerNameSelectionScene$5
+Return Type: void
+Parameters:
+  javafx.event.ActionEvent arg0
+
+Method: lambda$createPlayerNameSelectionScene$4
+Description: lambda$createPlayerNameSelectionScene$4
+Return Type: void
+Parameters:
+
+Method: lambda$createPlayerNameSelectionScene$3
+Description: lambda$createPlayerNameSelectionScene$3
+Return Type: void
+Parameters:
+  javafx.event.ActionEvent arg0
+
+Method: lambda$createPlayerNameSelectionScene$1
+Description: lambda$createPlayerNameSelectionScene$1
+Return Type: void
+Parameters:
+
+Method: lambda$createPlayerNameSelectionScene$2
+Description: lambda$createPlayerNameSelectionScene$2
+Return Type: void
+Parameters:
+  javafx.scene.control.TextField arg0
+  javafx.event.ActionEvent arg1
+
+Field: CARDS_PATH
+Description: CARDS_PATH
+Type: java.lang.String
+
+Field: ginRummyGame
+Description: ginRummyGame
+Type: com.ginrummy.GinRummyGame
+
+Field: primaryStage
+Description: primaryStage
+Type: javafx.stage.Stage
+
+Field: player1Cards
+Description: player1Cards
+Type: java.util.List
+
+Field: player2Cards
+Description: player2Cards
+Type: java.util.List
+
+Field: deckCards
+Description: deckCards
+Type: java.util.List
+
+Field: player1Name
+Description: player1Name
+Type: java.lang.String
+
+Field: player2Name
+Description: player2Name
+Type: java.lang.String
+
+Field: player1Label
+Description: player1Label
+Type: javafx.scene.control.Label
+
+Field: player2Label
+Description: player2Label
+Type: javafx.scene.control.Label
+
+Field: playerNameScene
+Description: playerNameScene
+Type: javafx.scene.Scene
+
+Field: gameplayScene
+Description: gameplayScene
+Type: javafx.scene.Scene
+
+Field: highScoreScene
+Description: highScoreScene
+Type: javafx.scene.Scene
+
+Field: movesDisplayScene
+Description: movesDisplayScene
+Type: javafx.scene.Scene
+
+Field: chatListView
+Description: chatListView
+Type: javafx.scene.control.ListView
+
+Field: messageField
+Description: messageField
+Type: javafx.scene.control.TextField
+
+Field: textAreaPlayer1
+Description: textAreaPlayer1
+Type: javafx.scene.control.TextArea
+
+Field: textAreaPlayer2
+Description: textAreaPlayer2
+Type: javafx.scene.control.TextArea
+
+Field: chatClient
+Description: chatClient
+Type: com.ginrummy.ChatFeatureRMI.ChatClient
+
+Field: chatServer
+Description: chatServer
+Type: com.ginrummy.Interfaces.IChatServer
+
+Field: clientSocket
+Description: clientSocket
+Type: java.net.Socket
+
+Field: serverSocket
+Description: serverSocket
+Type: java.net.ServerSocket
+
+Field: outputStream
+Description: outputStream
+Type: java.io.ObjectOutputStream
+
+Field: loadedGame
+Description: loadedGame
+Type: boolean
+

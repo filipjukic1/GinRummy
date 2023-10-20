@@ -1,0 +1,132 @@
+Class: com.ginrummy.Models.Player
+Description: com.ginrummy.Models.Player
+
+Method: equals
+Description: equals
+Return Type: boolean
+Parameters:
+  java.lang.Object arg0
+
+Method: toString
+Description: toString
+Return Type: java.lang.String
+Parameters:
+
+Method: hashCode
+Description: hashCode
+Return Type: int
+Parameters:
+
+Method: getName
+Description: getName
+Return Type: java.lang.String
+Parameters:
+
+Method: setName
+Description: setName
+Return Type: void
+Parameters:
+  java.lang.String arg0
+
+Method: canEqual
+Description: canEqual
+Return Type: boolean
+Parameters:
+  java.lang.Object arg0
+
+Method: sortHand
+Description: sortHand
+Return Type: void
+Parameters:
+
+Method: discardCard
+Description: discardCard
+Return Type: void
+Parameters:
+  int arg0
+  com.ginrummy.Models.Deck arg1
+
+Method: getAllPlayerOldMoves
+Description: getAllPlayerOldMoves
+Return Type: java.util.List
+Parameters:
+
+Method: setAllPlayerOldMoves
+Description: setAllPlayerOldMoves
+Return Type: void
+Parameters:
+  java.util.List arg0
+
+Method: drawFromDiscardPile
+Description: drawFromDiscardPile
+Return Type: void
+Parameters:
+  com.ginrummy.Models.Deck arg0
+
+Method: addToDiscardPile
+Description: addToDiscardPile
+Return Type: void
+Parameters:
+  com.ginrummy.Models.Card arg0
+  com.ginrummy.Models.Deck arg1
+
+Method: getHand
+Description: getHand
+Return Type: java.util.List
+Parameters:
+
+Method: setScore
+Description: setScore
+Return Type: void
+Parameters:
+  java.lang.Integer arg0
+
+Method: getScore
+Description: getScore
+Return Type: java.lang.Integer
+Parameters:
+
+Method: drawFromStockPile
+Description: drawFromStockPile
+Return Type: void
+Parameters:
+  com.ginrummy.Models.Deck arg0
+
+Method: calculateScore
+Description: calculateScore
+Return Type: int
+Parameters:
+  java.util.List arg0
+
+Method: setHand
+Description: setHand
+Return Type: void
+Parameters:
+  java.util.List arg0
+
+Method: lambda$sortHand$0
+Description: lambda$sortHand$0
+Return Type: int
+Parameters:
+  com.ginrummy.Models.Card arg0
+
+Field: PLAYER_HAND_SIZE
+Description: PLAYER_HAND_SIZE
+Type: java.lang.Integer
+
+Field: name
+Description: name
+Type: java.lang.String
+
+Field: hand
+Description: hand
+Type: java.util.List
+
+Field: score
+Description: score
+Type: java.lang.Integer
+
+Field: allPlayerOldMoves
+Description: allPlayerOldMoves
+Type: java.util.List
+

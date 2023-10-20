@@ -1,0 +1,33 @@
+Class: com.ginrummy.XMLLoader
+Description: com.ginrummy.XMLLoader
+
+Method: loadGameFromXML
+Description: loadGameFromXML
+Return Type: com.ginrummy.GinRummyGame
+Parameters:
+  java.lang.String arg0
+
+Method: saveGameToXML
+Description: saveGameToXML
+Return Type: void
+Parameters:
+  java.lang.String arg0
+  com.ginrummy.GinRummyGame arg1
+
+Method: saveMovesToXML
+Description: saveMovesToXML
+Return Type: void
+Parameters:
+  java.lang.String arg0
+  java.util.List arg1
+
+Method: loadMovesFromXML
+Description: loadMovesFromXML
+Return Type: java.util.List
+Parameters:
+  java.lang.String arg0
+
+Field: saveFile
+Description: saveFile
+Type: java.lang.String
+

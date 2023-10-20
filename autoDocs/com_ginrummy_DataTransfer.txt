@@ -1,0 +1,27 @@
+Class: com.ginrummy.DataTransfer
+Description: com.ginrummy.DataTransfer
+
+Field: player1
+Description: player1
+Type: com.ginrummy.Models.Player
+
+Field: player2
+Description: player2
+Type: com.ginrummy.Models.Player
+
+Field: deck
+Description: deck
+Type: com.ginrummy.Models.Deck
+
+Field: isGameOver
+Description: isGameOver
+Type: java.lang.Boolean
+
+Field: score
+Description: score
+Type: java.lang.Integer
+
+Field: name
+Description: name
+Type: java.lang.String
+

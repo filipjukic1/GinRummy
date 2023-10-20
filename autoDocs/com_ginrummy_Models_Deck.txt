@@ -1,0 +1,86 @@
+Class: com.ginrummy.Models.Deck
+Description: com.ginrummy.Models.Deck
+
+Method: equals
+Description: equals
+Return Type: boolean
+Parameters:
+  java.lang.Object arg0
+
+Method: toString
+Description: toString
+Return Type: java.lang.String
+Parameters:
+
+Method: hashCode
+Description: hashCode
+Return Type: int
+Parameters:
+
+Method: shuffle
+Description: shuffle
+Return Type: void
+Parameters:
+
+Method: canEqual
+Description: canEqual
+Return Type: boolean
+Parameters:
+  java.lang.Object arg0
+
+Method: drawFromDiscardPile
+Description: drawFromDiscardPile
+Return Type: com.ginrummy.Models.Card
+Parameters:
+
+Method: getTopStockPileCard
+Description: getTopStockPileCard
+Return Type: com.ginrummy.Models.Card
+Parameters:
+
+Method: getStockPile
+Description: getStockPile
+Return Type: java.util.List
+Parameters:
+
+Method: drawFromStockPile
+Description: drawFromStockPile
+Return Type: com.ginrummy.Models.Card
+Parameters:
+
+Method: addCardToDiscardPile
+Description: addCardToDiscardPile
+Return Type: void
+Parameters:
+  com.ginrummy.Models.Card arg0
+
+Method: getTopDiscardPileCard
+Description: getTopDiscardPileCard
+Return Type: com.ginrummy.Models.Card
+Parameters:
+
+Method: setStockPile
+Description: setStockPile
+Return Type: void
+Parameters:
+  java.util.List arg0
+
+Method: setDiscardPile
+Description: setDiscardPile
+Return Type: void
+Parameters:
+  java.util.List arg0
+
+Method: getDiscardPile
+Description: getDiscardPile
+Return Type: java.util.List
+Parameters:
+
+Field: stockPile
+Description: stockPile
+Type: java.util.List
+
+Field: discardPile
+Description: discardPile
+Type: java.util.List
+

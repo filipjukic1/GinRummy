@@ -1,0 +1,40 @@
+Class: com.ginrummy.ChatFeatureRMI.ChatServer
+Description: com.ginrummy.ChatFeatureRMI.ChatServer
+
+Method: main
+Description: main
+Return Type: void
+Parameters:
+  [Ljava.lang.String; arg0
+
+Method: sendMessage
+Description: sendMessage
+Return Type: void
+Parameters:
+  java.lang.String arg0
+
+Method: registerClient
+Description: registerClient
+Return Type: void
+Parameters:
+  com.ginrummy.Interfaces.IChatClient arg0
+
+Method: getIChatServer
+Description: getIChatServer
+Return Type: com.ginrummy.Interfaces.IChatServer
+Parameters:
+
+Method: unregisterClient
+Description: unregisterClient
+Return Type: void
+Parameters:
+  com.ginrummy.Interfaces.IChatClient arg0
+
+Field: clients
+Description: clients
+Type: java.util.List
+
+Field: serverIP
+Description: serverIP
+Type: java.lang.String
+

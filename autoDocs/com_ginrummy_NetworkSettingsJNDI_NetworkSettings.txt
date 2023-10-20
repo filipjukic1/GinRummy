@@ -1,0 +1,8 @@
+Class: com.ginrummy.NetworkSettingsJNDI.NetworkSettings
+Description: com.ginrummy.NetworkSettingsJNDI.NetworkSettings
+
+Method: getIPv4
+Description: getIPv4
+Return Type: java.lang.String
+Parameters:
+

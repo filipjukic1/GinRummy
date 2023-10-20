@@ -1,0 +1,134 @@
+Class: com.ginrummy.GinRummyGame
+Description: com.ginrummy.GinRummyGame
+
+Method: equals
+Description: equals
+Return Type: boolean
+Parameters:
+  java.lang.Object arg0
+
+Method: toString
+Description: toString
+Return Type: java.lang.String
+Parameters:
+
+Method: hashCode
+Description: hashCode
+Return Type: int
+Parameters:
+
+Method: getDeck
+Description: getDeck
+Return Type: com.ginrummy.Models.Deck
+Parameters:
+
+Method: getMeldCards
+Description: getMeldCards
+Return Type: java.util.List
+Parameters:
+
+Method: playerTurn
+Description: playerTurn
+Return Type: void
+Parameters:
+  com.ginrummy.Enums.DrawChoice arg0
+  int arg1
+
+Method: lambda$play$0
+Description: lambda$play$0
+Return Type: void
+Parameters:
+  int arg0
+
+Method: getPlayer1
+Description: getPlayer1
+Return Type: com.ginrummy.Models.Player
+Parameters:
+
+Method: getPlayer2
+Description: getPlayer2
+Return Type: com.ginrummy.Models.Player
+Parameters:
+
+Method: canEqual
+Description: canEqual
+Return Type: boolean
+Parameters:
+  java.lang.Object arg0
+
+Method: setPlayer1
+Description: setPlayer1
+Return Type: void
+Parameters:
+  com.ginrummy.Models.Player arg0
+
+Method: calculateDeadwoodAndMeldPoints
+Description: calculateDeadwoodAndMeldPoints
+Return Type: [I
+Parameters:
+
+Method: updateScore
+Description: updateScore
+Return Type: void
+Parameters:
+
+Method: setDeck
+Description: setDeck
+Return Type: void
+Parameters:
+  com.ginrummy.Models.Deck arg0
+
+Method: getIsGameOver
+Description: getIsGameOver
+Return Type: boolean
+Parameters:
+
+Method: play
+Description: play
+Return Type: void
+Parameters:
+
+Method: canKnock
+Description: canKnock
+Return Type: boolean
+Parameters:
+
+Method: setPlayer2
+Description: setPlayer2
+Return Type: void
+Parameters:
+  com.ginrummy.Models.Player arg0
+
+Method: setIsGameOver
+Description: setIsGameOver
+Return Type: void
+Parameters:
+  java.lang.Boolean arg0
+
+Method: UpdateCardDiscardableStatus
+Description: UpdateCardDiscardableStatus
+Return Type: void
+Parameters:
+
+Method: lambda$UpdateCardDiscardableStatus$1
+Description: lambda$UpdateCardDiscardableStatus$1
+Return Type: void
+Parameters:
+  com.ginrummy.Models.Card arg0
+
+Field: deck
+Description: deck
+Type: com.ginrummy.Models.Deck
+
+Field: player1
+Description: player1
+Type: com.ginrummy.Models.Player
+
+Field: player2
+Description: player2
+Type: com.ginrummy.Models.Player
+
+Field: isGameOver
+Description: isGameOver
+Type: java.lang.Boolean
+

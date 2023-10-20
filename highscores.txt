@@ -1,0 +1,6 @@
+filip
+170
+marks
+80
+temp
+70

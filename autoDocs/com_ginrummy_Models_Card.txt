@@ -1,0 +1,78 @@
+Class: com.ginrummy.Models.Card
+Description: com.ginrummy.Models.Card
+
+Method: equals
+Description: equals
+Return Type: boolean
+Parameters:
+  java.lang.Object arg0
+
+Method: toString
+Description: toString
+Return Type: java.lang.String
+Parameters:
+
+Method: hashCode
+Description: hashCode
+Return Type: int
+Parameters:
+
+Method: canEqual
+Description: canEqual
+Return Type: boolean
+Parameters:
+  java.lang.Object arg0
+
+Method: getRank
+Description: getRank
+Return Type: com.ginrummy.Enums.Rank
+Parameters:
+
+Method: getSuit
+Description: getSuit
+Return Type: com.ginrummy.Enums.Suit
+Parameters:
+
+Method: setDiscardable
+Description: setDiscardable
+Return Type: void
+Parameters:
+  boolean arg0
+
+Method: isDiscardable
+Description: isDiscardable
+Return Type: boolean
+Parameters:
+
+Method: setSuit
+Description: setSuit
+Return Type: void
+Parameters:
+  com.ginrummy.Enums.Suit arg0
+
+Method: setRank
+Description: setRank
+Return Type: void
+Parameters:
+  com.ginrummy.Enums.Rank arg0
+
+Field: CARD_WIDTH
+Description: CARD_WIDTH
+Type: java.lang.Integer
+
+Field: CARD_HEIGHT
+Description: CARD_HEIGHT
+Type: java.lang.Integer
+
+Field: suit
+Description: suit
+Type: com.ginrummy.Enums.Suit
+
+Field: rank
+Description: rank
+Type: com.ginrummy.Enums.Rank
+
+Field: isDiscardable
+Description: isDiscardable
+Type: boolean
+

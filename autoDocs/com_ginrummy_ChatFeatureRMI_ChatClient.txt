@@ -1,0 +1,7 @@
+Class: com.ginrummy.ChatFeatureRMI.ChatClient
+Description: com.ginrummy.ChatFeatureRMI.ChatClient
+
+Field: name
+Description: name
+Type: java.lang.String
+

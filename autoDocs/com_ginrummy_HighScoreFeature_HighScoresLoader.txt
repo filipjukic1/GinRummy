@@ -1,0 +1,22 @@
+Class: com.ginrummy.HighScoreFeature.HighScoresLoader
+Description: com.ginrummy.HighScoreFeature.HighScoresLoader
+
+Method: loadPlayerData
+Description: loadPlayerData
+Return Type: java.util.List
+Parameters:
+
+Method: savePlayerData
+Description: savePlayerData
+Return Type: void
+Parameters:
+  com.ginrummy.Models.Player arg0
+
+Field: FILE_NAME
+Description: FILE_NAME
+Type: java.lang.String
+
+Field: LIMIT_HIGHEST_SCORE_LIST
+Description: LIMIT_HIGHEST_SCORE_LIST
+Type: int
+
